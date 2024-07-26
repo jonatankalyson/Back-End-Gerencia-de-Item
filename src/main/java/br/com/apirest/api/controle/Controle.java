@@ -73,11 +73,6 @@ public class Controle {
 
     }
 
-    @PostMapping("/item")
-    public Item item(@RequestBody Item i){
-        return i;
 
-
-    }
     
 }
